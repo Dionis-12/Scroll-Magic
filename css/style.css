@@ -1,0 +1,50 @@
+
+
+* {
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	background: url(../image/bg.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	clip-path: circle(0px at center);
+	height: 100vh;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.container {
+	background: #fff;
+	margin-top: 200vh;
+	padding: 100px;
+	position: relative;
+}
+
+.container h2 {
+	font-size: 2.5em;
+	margin-bottom: 20px;
+}
+
+.title {
+	font-size: 3em;
+	position: relative;
+	text-align: center;
+	top: 250px;
+	z-index: 1;
+}
+
+@media (min-width: 576px) and (max-width: 1020px) {
+	.title {
+	font-size: 3em;
+	position: relative;
+	text-align: center;
+	top: 190px;
+	z-index: 1;
+	}
+}
